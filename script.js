@@ -15,12 +15,12 @@ const current1El = document.getElementById('current--1');
 const player0El = document.querySelector('.player--0');
 const player1El = document.querySelector('.player--1');
 
+// Starting elements
 let scores = [0, 0];
 let currentScore = 0;
 let activePlayer = 0;
 let playing = true;
 
-// Starting elements
 const init = function () {
   scores = [0, 0];
   currentScore = 0;
